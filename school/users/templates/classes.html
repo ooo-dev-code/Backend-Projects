@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<style>
+    .calendar {
+        display: table;
+        background: greenyellow;
+        opacity: 1.8;
+        border-radius: 10px;
+    }
+    .days {
+        display: flex;
+        div {
+            margin: 20px;
+            position: relative;
+            text-align: center;
+            padding: 20px;
+            background: green;
+            box-shadow: 0 0 10px rgba(0, 0, 0);
+            border-radius: 10px;
+
+            h1 {
+                color: white;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    p {
+        background: wheat;
+        border-radius: 10px;
+    }
+    nav {
+        background: #000;
+    }
+</style>
+
+    <a href="{% url 'frontpage' %}">Front</a>
+
+    <h1>Classes</h1>
+
+    <span class="calendar"><div class="days">
+        <div class="hour">
+            <h1>Monday</h1>
+            <nav class="hour">{% for class in classes %}
+                {% if class.date == "Monday" %}
+                    <p>{{class.subject}}</p>
+                    <p>{{class.teacher}}</p>
+                    
+                {% endif %}
+            {% endfor %}</nav>
+        </div>
+
+        <div class="hour">
+            <h1>Tuesday</h1>
+            {% for class in classes %}{% if class.date == "Tuesday" %}
+            <p>{{class.subject}}</p>
+            <p>{{class.teacher}}</p>
+            
+            {% endif %}{% endfor %}
+        </div>
+
+        <div class="hour">
+            <h1>Wednesday</h1>
+            {% for class in classes %}{% if class.date == "Wednesday" %}
+            <p>{{class.subject}}</p>
+            <p>{{class.teacher}}</p>
+            
+            {% endif %}{% endfor %}
+        </div>
+
+        <div class="hour">
+            <h1>Thursday</h1>   
+            {% for class in classes %}{% if class.date == "Thursday" %}
+            <p>{{class.subject}}</p>
+            <p>{{class.teacher}}</p>
+            
+            {% endif %}{% endfor %}
+        </div>
+
+        <div class="hour">
+            <h1>Friday</h1>
+            {% for class in classes %}{% if class.date == "Friday" %}
+            <p>{{class.subject}}</p>
+            <p>{{class.teacher}}</p>
+            
+            {% endif %}{% endfor %}
+        </div>
+    </div></span>
+    
+    {% if perms.users.is_office %}
+        <h1>Add Day</h1>
+
+        <a href="{% url 'add_class' %}">add_class</a>
+    {% endif %}
+    
+{% endblock content %}
+    
