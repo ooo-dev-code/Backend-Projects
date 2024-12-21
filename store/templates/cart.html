@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<a href="{% url 'bank' %}"><h1>Bank</h1></a>
+<a href="{% url 'index' %}"><h1>Boutique</h1></a>
+
+    {% for order in orders %}
+        
+        <h2>{{order}}</h2>
+        <p>{{order.quantity}}</p>
+
+    {% endfor %}
+    
+
+{% endblock content %}

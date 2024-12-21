@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>produit...</h1>
+<a href="{% url 'bank' %}"><h1>Bank</h1></a>
+<a href="{% url 'cart' %}"><h1>Cart</h1></a>
+
+{% for produit in product %}
+    <h2>{{produit.name}}</h2>
+    <a href="{% url 'products' produit.slug %}">Voir l'article</a>
+{% endfor %}
+
+
+{% endblock content %}

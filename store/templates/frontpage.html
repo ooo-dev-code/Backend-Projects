@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if user.is_authenticated %}
+        <a href="{% url 'bank' %}"><h1>Bank</h1></a>
+        <form action="{% url 'logout' %}" method="post">
+            {% csrf_token %}
+            <button>logout</button>
+        </form>
+    {% else %}
+        <a href="{% url 'signup' %}">Sign Up</a>
+        <a href="{% url 'login' %}">Login</a>
+    {% endif %}
+
+{% endblock content %}
