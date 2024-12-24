@@ -8,4 +8,4 @@ ________________________________________________________________________________
 <h1><u>SCHOOL INTERFACE PROJECT</u></h1>
 
 This is a school website with students and workers.
-In there, I used the permissions and
+In there, I used the permissions and learned more about 
