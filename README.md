@@ -7,4 +7,4 @@ ________________________________________________________________________________
 
 <h1><u>SCHOOL INTERFACE PROJECT</u></h1>
 
-This is a school website with students.
+This is a school website with students and workers
