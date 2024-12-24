@@ -5,6 +5,6 @@
 ________________________________________________________________________________________________________________________________________________
 
 
-<h1><u>E-COMMERCE PROJECT</u></h1>
+<h1><u>SCHOOL INTERFACE PROJECT</u></h1>
 
-This is an e-commerce project
+This is a school website with students.
