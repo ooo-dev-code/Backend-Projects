@@ -3,6 +3,7 @@
 <h2>This is a list of all my projects in backend</h2>
 
 - E-commerce
+- School Interface
 - Todo App ( Django )
 ________________________________________________________________________________________________________________________________________________
 
