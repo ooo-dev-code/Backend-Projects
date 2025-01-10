@@ -1,3 +1,3 @@
 ﻿# E-Commerce
 
-A basic e-commerce
+A basic e-commerce.
