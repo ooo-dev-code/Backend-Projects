@@ -1,3 +1,3 @@
 ﻿# E-Commerce
 
-A bas
+A basic e
