@@ -1,6 +1,7 @@
 ﻿# Backend-Projects | Go check the other branches to see the other projects
 
 <h2>This is a list of all my projects in backend</h2>
+( some of my projects are absent because of a problem in the commit )
 
 - E-commerce
 - School Management System
