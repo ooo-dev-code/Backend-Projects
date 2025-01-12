@@ -1,4 +1,4 @@
-﻿# Backend-Projects | GO CHECK THE OTHERS BRANCHES
+﻿# Backend-Projects | Go check the other branches to see the other projects
 
 <h2>This is a list of all my projects in backend</h2>
 
