@@ -14,3 +14,7 @@ ________________________________________________________________________________
 
 This is a school website with students and workers.
 In there, I used the permissions and learned more about models and forms.
+
+
+https://github.com/user-attachments/assets/0dba634f-6d0f-48db-80e3-e46bb54bd442
+
