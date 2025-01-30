@@ -6,7 +6,7 @@
 - E-commerce
 - School Management System
 - Todo App ( Django )
-- Todo App ( Go API )
+- Todo App ( Go API ) 
 - IMC calculator
 ________________________________________________________________________________________________________________________________________________
 
